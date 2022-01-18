@@ -31,11 +31,11 @@
         <option value="philippines">Philippines</option>
     </select><br>
     <p>Language Spoken:</p>
-    <input type="checkbox" id="bahasa_indonesia" name="bahasa_indonesia" value="bahasa_indonesia">
+    <input type="checkbox" id="bahasa_indonesia" name="bahasa[]" value="bahasa_indonesia">
     <label for="bahasa_indonesia">Bahasa Indonesia</label><br>
-    <input type="checkbox" id="english" name="english" value="english">
+    <input type="checkbox" id="english" name="bahasa[]" value="english">
     <label for="english">English</label><br>
-    <input type="checkbox" id="other_lang" name="other" value="other">
+    <input type="checkbox" id="other_lang" name="bahasa[]" value="other">
     <label for="other_lang">Other</label><br><br>
     <!-- input type: text -->
     <label for="bio">Bio:</label><br><br>

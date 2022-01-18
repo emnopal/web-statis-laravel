@@ -23,8 +23,9 @@ class AuthController extends Controller
             'last_name' => $request->input('last_name'),
             'gender' => $request->input('gender'),
             'nationality' => $request->input('nationality'),
-            'bahasa_indonesia' => $request->input('bahasa_indonesia'),
-            'bio' => $request->input('bio')
+            'bahasa' => $request->input('bahasa'),
+            'bio' => $request->input('bio'),
+            'all'=>$request->all()
         ];
 
         return view('home', compact('data'));
